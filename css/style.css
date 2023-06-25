@@ -2,6 +2,15 @@
 /* header*/
 /*----------------------------------------------------------*/
 header {
-  height: 100vh;
-  background-color: #213555;
+  height: 80vh;
+  background-color: #0c0c0f;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+h1,
+p {
+  color: #e5e1e1;
 }
