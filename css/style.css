@@ -72,6 +72,7 @@ p {
   position: relative;
   top: 30%;
   text-align: center;
+  fill: #e5e1e1;
 }
 
 .bounce {
@@ -91,5 +92,21 @@ p {
   }
   60% {
     transform: translateY(-15px);
+  }
+}
+
+@media (min-width: 360px) and (max-width: 502px) {
+  header {
+    height: 100vh;
+  }
+  .header-content {
+    top: 15%;
+  }
+  .arrow {
+    top: 25%;
+  }
+  .arrow > svg {
+    width: 32px;
+    height: 32px;
   }
 }
