@@ -2,7 +2,7 @@
 /* header*/
 /*----------------------------------------------------------*/
 header {
-  height: 80vh;
+  height: 100vh;
   background-color: #0c0c0f;
 }
 
@@ -12,10 +12,8 @@ p {
 }
 
 .header-content {
-  /* display: flex; */
   position: relative;
   top: 10%;
-  /* height: inherit; */
 }
 
 /* fancy button  */
@@ -96,9 +94,6 @@ p {
 }
 
 @media (min-width: 360px) and (max-width: 502px) {
-  header {
-    height: 100vh;
-  }
   .header-content {
     top: 15%;
   }
