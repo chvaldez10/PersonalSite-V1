@@ -9,6 +9,11 @@ header {
   background-size: cover;
 }
 
+.nav-background {
+  background-color: #0c0c0f;
+  transition: background-color 200ms linear;
+}
+
 h1,
 p {
   color: #e5e1e1;
@@ -132,4 +137,11 @@ p {
 .hover-underline-animation:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+/*----------------------------------------------------------*/
+/* Sections*/
+/*----------------------------------------------------------*/
+#about-me > p {
+  color: #0c0c0f;
 }
