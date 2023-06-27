@@ -14,9 +14,8 @@ header {
   transition: background-color 200ms linear;
 }
 
-h1,
-p {
-  color: #e5e1e1;
+.white-text {
+  color: #e5e5e1;
 }
 
 .header-content {
