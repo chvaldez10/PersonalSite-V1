@@ -144,3 +144,14 @@ header {
 .spotify-text {
   color: #1db954;
 }
+
+.tiktok-text {
+  color: #ff0050;
+}
+
+hr {
+  border: dotted #1db954 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 50px auto;
+}
