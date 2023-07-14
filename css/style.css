@@ -18,9 +18,16 @@ header {
   background-size: cover;
 }
 
-.nav-background {
-  background-color: #0c0c0f;
-  transition: background-color 200ms linear;
+.nav-background-change-back {
+  background-color: transparent;
+  transition: color 1s ease;
+  transition: background-color 1s ease;
+}
+
+.nav-background-change {
+  background-color: #1f1f29;
+  transition: color 1s ease;
+  transition: background-color 1s ease;
 }
 
 .white-text {
