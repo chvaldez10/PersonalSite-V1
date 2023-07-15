@@ -225,11 +225,11 @@ hr {
 }
 
 input:checked + .slider {
-  background-color: #1d5d9b;
+  background-color: #1db954;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #1d5d9b;
+  box-shadow: 0 0 1px #1db954;
 }
 
 input:checked + .slider:before {
@@ -242,13 +242,14 @@ input:checked + .slider:before {
   width: 50px;
   height: 5px;
   background-color: black;
-  /* margin-left: 5px;
-  margin-right: 5px; */
+  transition: background-color 0.5s;
 }
 
 .rotate-45 {
   transform: rotate(-45deg);
   transform-origin: top left;
+  background-color: #ccc;
+  transition: background-color 0.5s;
 }
 
 .bulb {
