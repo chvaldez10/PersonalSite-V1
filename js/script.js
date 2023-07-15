@@ -33,7 +33,22 @@ $("#github-button").click(function () {
 
 $("#resume-button").click(function () {
   window.open(
-    "https://github.com/chvaldez10/PersonalSite-V1/blob/76060b30f44b9e98b1b2086b32334b1fdb823a8b/pdfs/Christian-Valdez_Resume.pdf",
+    "https://github.com/chvaldez10/PersonalSite-V1/blob/main/pdfs/Resume.pdf",
     "_blank"
   );
+});
+
+// clean up later
+const latchSwitch = document.getElementById("latchSwitch");
+const bulb = document.querySelector(".bulb");
+const circuitSwitch = document.querySelector(".rotate-45");
+
+latchSwitch.addEventListener("change", function () {
+  if (latchSwitch.checked) {
+    bulb.classList.add("on");
+    circuitSwitch.classList.remove("rotate-45");
+  } else {
+    bulb.classList.remove("on");
+    circuitSwitch.classList.add("rotate-45");
+  }
 });

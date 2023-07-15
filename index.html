@@ -20,36 +20,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <header>
+    <!-- navbar -->
     <nav id="my-navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" aria-label="Tenth navbar example"
       id="my-navbar">
       <div class="container-fluid">
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#boostrap-navbar-example08" aria-controls="boostrap-navbar-example08" aria-expanded="false"
-          aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bootstrap-navbar-08"
+          aria-controls="bootstrap-navbar-08" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-md-center" id="boostrap-navbar-example08">
+        <div class="collapse navbar-collapse justify-content-md-center" id="bootstrap-navbar-08">
           <ul class="nav navbar-nav">
             <li class="nav-item">
-              <a class="nav-link hover-underline-animation" id="about-me-a" href="#">About Me</a>
+              <a class="nav-link hover-underline-animation" id="about-me-a">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-underline-animation" id="BSC-a" href="#">Education</a>
+              <a class="nav-link hover-underline-animation" id="BSC-a">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-underline-animation" id="CMG-a" href="#">Experience</a>
+              <a class="nav-link hover-underline-animation" id="CMG-a">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-underline-animation" id="BT-lab-a" href="#">Research</a>
+              <a class="nav-link hover-underline-animation" id="BT-lab-a">Research</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-underline-animation" id="CFMC-a" href="#">Volunteer</a>
+              <a class="nav-link hover-underline-animation" id="CFMC-a">Volunteer</a>
             </li>
           </ul>
         </div>
@@ -62,8 +63,9 @@
         I'm Christian
       </h1>
       <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4 white-text">I like to build things.</p>
-        <div class="d-grid gap-4 col-6 mx-auto">
+        <p class="fs-5 mb-5 white-text">I like to build things <i class="fa fa-cog fa-spin" style="font-size:24px"></i>
+        </p>
+        <div class="d-grid gap-5 col-6 mx-auto">
           <button class="button-30" id="github-button" role="button"><img src="./pictures/github-142-svgrepo-com.svg"
               style="margin-right: 1rem;" alt="GitHub cat">
             GitHub</button>
@@ -94,14 +96,41 @@
   </header>
 
   <section id="about-me">
-    <div class="px-4 pt-5 text-center">
+    <div class="px-4 pt-4 text-center">
       <h1 class="display-5 fw-bold text-body-emphasis">Hello . . .</h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4 text-dark">
-          I am completing my Masters of Engineer (MEng) at the University of
-          Calgary (UofC). I worked as a software quality assurance (QA) intern
-          at Computer Modelling Group Ltd (CMG). I am passionate about music
-          and enjoy playing sports.
+          I received my B. Sc. in Electrical Engineering at the University of Calgary (UofC). When my friends ask my
+          what I did in my degree, I say one word . . . circuits
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id-="circuit">
+    <div class="circuit">
+      <img src="./pictures/voltage-source.svg" alt="">
+      <div class="wire"></div>
+      <img src="./pictures/resistor.svg" alt="">
+      <div class="wire"></div>
+      <div class="wire rotate-45"></div>
+      <div class="wire"></div>
+      <img src="./pictures/light-bulb-svgrepo-com.svg" class="bulb" alt="">
+      <div class="latch-switch">
+        <label>
+          <input type="checkbox" id="latchSwitch">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-me-continued">
+    <div class="px-4 pt-4 text-center">
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 text-dark">
+          I had a change of heart when it came to software after my internship at Computer Modelling Group Ltd. (CMG).
+          Now, I am completing my Masters in Engineering (MEng) and hope to graduate in the spring of 2024.
         </p>
       </div>
     </div>
