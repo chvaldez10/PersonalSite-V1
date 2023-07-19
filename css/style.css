@@ -1,5 +1,5 @@
 /*----------------------------------------------------------*/
-/* All*/
+/* Re usable*/
 /*----------------------------------------------------------*/
 
 * {
@@ -7,12 +7,20 @@
   padding: 0;
 }
 
+.white-text {
+  color: #e5e5e1;
+}
+
+.fav-styling {
+  margin-right: 10px;
+}
+
 /*----------------------------------------------------------*/
 /* header*/
 /*----------------------------------------------------------*/
 header {
   height: 100vh;
-  background-image: url("../pictures/mountains-blurred.jpg");
+  background-image: url("../pictures/wallpaper/mountains-blurred.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,10 +36,6 @@ header {
   background-color: #1f1f29;
   transition: color 1s ease;
   transition: background-color 1s ease;
-}
-
-.white-text {
-  color: #e5e5e1;
 }
 
 .header-content {
