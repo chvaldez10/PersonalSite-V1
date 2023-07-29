@@ -38,7 +38,7 @@ $("#resume-button").click(function () {
   );
 });
 
-// clean up later
+// for circuit elements
 const latchSwitch = document.getElementById("latchSwitch");
 const bulb = document.querySelector(".bulb");
 const circuitSwitch = document.querySelector(".rotate-45");
@@ -52,3 +52,11 @@ latchSwitch.addEventListener("change", function () {
     circuitSwitch.classList.add("rotate-45");
   }
 });
+
+// for scrolling
+const highlight = document.querySelectorAll(".highlight");
+const observer = new IntersectionObserver((entries) => {
+  console.log(entries);
+});
+
+observer.observe(highlight[0]);
