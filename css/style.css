@@ -99,11 +99,15 @@ header {
 }
 
 /* bouncing arrow */
+.fa-arrow-styling {
+  color: #e5e1e1;
+  cursor: pointer;
+}
+
 .arrow {
   position: relative;
   top: 30%;
   text-align: center;
-  fill: #e5e1e1;
 }
 
 .bounce {

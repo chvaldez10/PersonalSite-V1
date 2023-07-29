@@ -11,6 +11,10 @@ $("#about-me-a").click(function () {
   $("html, body").animate({ scrollTop: $("#about-me").offset().top }, 1000);
 });
 
+$("#about-me-arrow").click(function () {
+  $("html, body").animate({ scrollTop: $("#about-me").offset().top }, 1000);
+});
+
 $("#BSC-a").click(function () {
   $("html, body").animate({ scrollTop: $("#BSC").offset().top }, 1000);
 });
