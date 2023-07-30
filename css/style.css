@@ -26,6 +26,10 @@ header {
   background-size: cover;
 }
 
+nav {
+  cursor: pointer;
+}
+
 .nav-background-change-back {
   background-color: transparent;
   transition: color 1s ease;
@@ -166,6 +170,13 @@ header {
 .hover-underline-animation:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+/*----------------------------------------------------------*/
+/* Skills*/
+/*----------------------------------------------------------*/
+
+#skills {
 }
 
 /*----------------------------------------------------------*/
