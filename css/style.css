@@ -173,10 +173,6 @@ nav {
 }
 
 /*----------------------------------------------------------*/
-/* Skills*/
-/*----------------------------------------------------------*/
-
-/*----------------------------------------------------------*/
 /* Sections*/
 /*----------------------------------------------------------*/
 .spotify-text {
@@ -275,5 +271,29 @@ input:checked + .slider:before {
 }
 
 /*----------------------------------------------------------*/
-/* Footer*/
+/* Media Queries for the whole site*/
 /*----------------------------------------------------------*/
+/* Extra small devices (phones, up to 600px) */
+@media only screen and (max-width: 600px) {
+  /* Styles go here */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* Styles go here */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* Styles go here */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Styles go here */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* Styles go here */
+}
