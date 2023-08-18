@@ -15,6 +15,10 @@
   margin-right: 10px;
 }
 
+.max-width {
+  max-width: 90%;
+}
+
 /*----------------------------------------------------------*/
 /* header*/
 /*----------------------------------------------------------*/
@@ -276,7 +280,9 @@ input:checked + .slider:before {
 /*----------------------------------------------------------*/
 /* Extra small devices (phones, up to 600px) */
 @media only screen and (max-width: 600px) {
-  /* Styles go here */
+  .image-hide {
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
