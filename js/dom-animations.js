@@ -1,3 +1,10 @@
+/**
+ * Simple Dom animations for visual effects.
+ */
+
+/**
+ * Remove navbar background if the user is at the top of the page.
+ */
 $(window).scroll(function () {
   if ($(document).scrollTop() > 20) {
     $("nav").addClass("nav-background-change");
@@ -7,6 +14,9 @@ $(window).scroll(function () {
   }
 });
 
+/**
+ * The following jQuery selectors is to automate section scrolling.
+ */
 $("#about-me-a").click(function () {
   $("html, body").animate({ scrollTop: $("#about-me").offset().top }, 1000);
 });
@@ -35,6 +45,9 @@ $("#github-button").click(function () {
   window.open("https://github.com/chvaldez10", "_blank");
 });
 
+/**
+ * Open resume from GitHub page.
+ */
 $("#resume-button").click(function () {
   window.open(
     "https://github.com/chvaldez10/PersonalSite-V1/blob/main/pdfs/Resume.pdf",

@@ -1,3 +1,7 @@
+/**
+ * Change switch position based on user click.
+ */
+
 const latchSwitch = document.getElementById("latchSwitch");
 const bulb = document.querySelector(".bulb");
 const circuitSwitch = document.querySelector(".rotate-45");
