@@ -276,6 +276,17 @@ input:checked + .slider:before {
 }
 
 /*----------------------------------------------------------*/
+/* icon styling*/
+/*----------------------------------------------------------*/
+.carousel-control-prev-icon-styling {
+  filter: invert(100);
+}
+
+.carousel-slide-indicators-styling {
+  background-color: #b6bbc4;
+}
+
+/*----------------------------------------------------------*/
 /* Media Queries for the whole site*/
 /*----------------------------------------------------------*/
 /* Extra small devices (phones, up to 600px) */
