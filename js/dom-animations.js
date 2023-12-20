@@ -41,6 +41,13 @@ $("#CFMC-a").click(function () {
   $("html, body").animate({ scrollTop: $("#CFMC").offset().top }, 1000);
 });
 
+$("#project-highlights-a").click(function () {
+  $("html, body").animate(
+    { scrollTop: $("#project-highlights").offset().top },
+    1000
+  );
+});
+
 $("#github-button").click(function () {
   window.open("https://github.com/chvaldez10", "_blank");
 });
