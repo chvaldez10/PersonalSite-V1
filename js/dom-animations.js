@@ -61,3 +61,22 @@ $("#resume-button").click(function () {
     "_blank"
   );
 });
+
+/**
+ * Dashed line animation.
+ */
+$(window).on("scroll", function () {
+  var $dashedLine = $(".dashed-line");
+  var $dashedContainer = $(".dashed-container");
+
+  // get position relative to viewport
+  var containerPosition = $dashedContainer.offset().top;
+  var screenPosition = $(window).height();
+
+  // check if container is visible
+  if (containerPosition < $(window).scrollTop() + screenPosition) {
+    $dashedLine.css("height", "100%");
+  } else {
+    $dashedLine.css("height", "0%");
+  }
+});
