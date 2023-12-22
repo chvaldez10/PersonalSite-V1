@@ -227,7 +227,7 @@ nav {
 }
 
 hr {
-  border: dotted #1db954 6px;
+  border: dotted #121212 6px;
   border-bottom: none;
   width: 10%;
   margin: 50px auto;
@@ -319,14 +319,10 @@ input:checked + .slider:before {
 }
 
 /*----------------------------------------------------------*/
-/* icon styling*/
+/* carousel controls styling*/
 /*----------------------------------------------------------*/
 .carousel-control-prev-icon-styling {
   filter: invert(100);
-}
-
-.carousel-slide-indicators-styling {
-  background-color: #b6bbc4;
 }
 
 /*----------------------------------------------------------*/
