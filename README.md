@@ -1,5 +1,5 @@
-# Personal Website
+# Personal Website 🌐
 
-Personal website to display portfolio.
+Welcome to my personal site! This is where I showcase my portfolio 🎨, share my experiences, and connect with others.
 
-Click the link: [Personal Site](https://chvaldez10.github.io/).
+🔗 Click the link to dive in: [Personal Site](https://chvaldez10.github.io/).
