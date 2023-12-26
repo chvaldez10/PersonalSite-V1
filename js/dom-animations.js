@@ -57,7 +57,7 @@ $("#github-button").click(function () {
  */
 $("#resume-button").click(function () {
   window.open(
-    "https://github.com/chvaldez10/PersonalSite-V1/blob/main/pdfs/Resume.pdf",
+    "https://github.com/chvaldez10/PersonalSite-V1/blob/main/pdfs/Christian-Valdez_Resume.pdf",
     "_blank"
   );
 });
