@@ -18,36 +18,56 @@ $(window).scroll(function () {
  * The following jQuery selectors is to automate section scrolling.
  */
 $("#about-me-a").click(function () {
-  $("html, body").animate({ scrollTop: $("#about-me").offset().top }, 1000);
+  $("html, body").animate(
+    { scrollTop: $("#about-me").offset().top },
+    100,
+    "linear"
+  );
 });
 
 $("#about-me-arrow").click(function () {
-  $("html, body").animate({ scrollTop: $("#about-me").offset().top }, 1000);
+  $("html, body").animate(
+    { scrollTop: $("#about-me").offset().top },
+    100,
+    "linear"
+  );
 });
 
 $("#BSC-a").click(function () {
-  $("html, body").animate({ scrollTop: $("#BSC").offset().top }, 1000);
+  $("html, body").animate({ scrollTop: $("#BSC").offset().top }, 100, "linear");
 });
 
 $("#CMG-a").click(function () {
-  $("html, body").animate({ scrollTop: $("#CMG").offset().top }, 1000);
+  $("html, body").animate({ scrollTop: $("#CMG").offset().top }, 100, "linear");
 });
 
 $("#BT-lab-a").click(function () {
-  $("html, body").animate({ scrollTop: $("#BT-lab").offset().top }, 1000);
+  $("html, body").animate(
+    { scrollTop: $("#BT-lab").offset().top },
+    100,
+    "linear"
+  );
 });
 
 $("#CFMC-a").click(function () {
-  $("html, body").animate({ scrollTop: $("#CFMC").offset().top }, 1000);
+  $("html, body").animate(
+    { scrollTop: $("#CFMC").offset().top },
+    100,
+    "linear"
+  );
 });
 
 $("#project-highlights-a").click(function () {
   $("html, body").animate(
     { scrollTop: $("#project-highlights").offset().top },
-    1000
+    100,
+    "linear"
   );
 });
 
+/**
+ * Open GitHub profile.
+ */
 $("#github-button").click(function () {
   window.open("https://github.com/chvaldez10", "_blank");
 });
