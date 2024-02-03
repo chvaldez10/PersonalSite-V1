@@ -17,9 +17,9 @@ $(window).scroll(function () {
 /**
  * The following jQuery selectors is to automate section scrolling.
  */
-$("#about-me-a").click(function () {
+$("#Bio").click(function () {
   $("html, body").animate(
-    { scrollTop: $("#about-me").offset().top },
+    { scrollTop: $("#about-me").offset().top - 30 },
     100,
     "linear"
   );
@@ -27,37 +27,45 @@ $("#about-me-a").click(function () {
 
 $("#about-me-arrow").click(function () {
   $("html, body").animate(
-    { scrollTop: $("#about-me").offset().top },
+    { scrollTop: $("#about-me").offset().top - 30 },
     100,
     "linear"
   );
 });
 
-$("#BSC-a").click(function () {
-  $("html, body").animate({ scrollTop: $("#BSC").offset().top }, 100, "linear");
-});
-
-$("#CMG-a").click(function () {
-  $("html, body").animate({ scrollTop: $("#CMG").offset().top }, 100, "linear");
-});
-
-$("#BT-lab-a").click(function () {
+$("#Education").click(function () {
   $("html, body").animate(
-    { scrollTop: $("#BT-lab").offset().top },
+    { scrollTop: $("#MEng").offset().top - 30 },
     100,
     "linear"
   );
 });
 
-$("#CFMC-a").click(function () {
+$("#Experience").click(function () {
   $("html, body").animate(
-    { scrollTop: $("#CFMC").offset().top },
+    { scrollTop: $("#Showpass").offset().top - 30 },
     100,
     "linear"
   );
 });
 
-$("#project-highlights-a").click(function () {
+$("#Research").click(function () {
+  $("html, body").animate(
+    { scrollTop: $("#BT-lab").offset().top - 30 },
+    100,
+    "linear"
+  );
+});
+
+$("#Volunteer").click(function () {
+  $("html, body").animate(
+    { scrollTop: $("#CFMC").offset().top - 30 },
+    100,
+    "linear"
+  );
+});
+
+$("#current-project").click(function () {
   $("html, body").animate(
     { scrollTop: $("#project-highlights").offset().top },
     100,
