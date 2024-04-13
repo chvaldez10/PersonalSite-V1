@@ -24,7 +24,7 @@
 }
 
 .white-text {
-  color: #e5e5e1;
+  color: var(--light-bg);
 }
 
 .fa-styling {
@@ -83,10 +83,13 @@
 }
 
 /*----------------------------------------------------------*/
-/* header*/
+/* header background */
 /*----------------------------------------------------------*/
 header {
+  display: flex;
   height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-background {
@@ -97,7 +100,6 @@ header {
 }
 
 .animated-background {
-  /* Adding white to the gradient */
   background: linear-gradient(
     -45deg,
     var(--dark-blue),
@@ -124,26 +126,30 @@ header {
   }
 }
 
+/*----------------------------------------------------------*/
+/* navbar */
+/*----------------------------------------------------------*/
+
 nav {
   cursor: pointer;
+  background-color: transparent;
+}
+
+.nav-background-change .nav-background-change-back {
+  transition: color 1s linear, background-color 1s linear;
 }
 
 .nav-background-change-back {
   background-color: transparent;
-  transition: color 1s ease;
-  transition: background-color 1s ease;
 }
 
 .nav-background-change {
-  background-color: #1f1f29;
-  transition: color 1s ease;
-  transition: background-color 1s ease;
+  background-color: var(--dark-blue);
 }
 
-.header-content {
-  position: relative;
-  top: 15%;
-}
+/*----------------------------------------------------------*/
+/* header content */
+/*----------------------------------------------------------*/
 
 .hand-written-font {
   font-family: "Satisfy", cursive;
