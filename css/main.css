@@ -201,16 +201,6 @@ nav {
   }
 }
 
-@media (min-width: 360px) and (max-width: 502px) {
-  .arrow {
-    top: 25%;
-  }
-  .arrow > svg {
-    width: 32px;
-    height: 32px;
-  }
-}
-
 /* Anchor underline */
 .hover-underline-animation {
   display: inline-block;
@@ -389,6 +379,16 @@ input:checked + .slider:before {
 /* Media Queries for the whole site*/
 /*----------------------------------------------------------*/
 /* Extra small devices (phones, up to 600px) */
+@media (min-width: 360px) and (max-width: 502px) {
+  .arrow {
+    top: 25%;
+  }
+  .arrow > svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .hand-written-font {
     font-size: 3.5rem;
