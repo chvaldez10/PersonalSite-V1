@@ -1,4 +1,20 @@
 /*----------------------------------------------------------*/
+/* Theming */
+/*----------------------------------------------------------*/
+
+:root {
+  --orange-orange: #ff9800;
+  --dark-blue: #112d4e;
+  --ocean-blue: #3f72af;
+  --light-blue: #dbe2ef;
+  --light-bg: #f9f7f7;
+  --dark-text: #252a34;
+  --light-turquoise: #97e7e1;
+  --pink-red: #ff407d;
+  --dark-purple: #1d24ca;
+}
+
+/*----------------------------------------------------------*/
 /* Re usable*/
 /*----------------------------------------------------------*/
 
@@ -71,10 +87,41 @@
 /*----------------------------------------------------------*/
 header {
   height: 100vh;
-  background-image: url("../pictures/wallpaper/mountains-blurred.jpg");
+}
+
+.header-background {
+  background: linear-gradient(to bottom, #74ebd5, #acb6e5);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.animated-background {
+  /* Adding white to the gradient */
+  background: linear-gradient(
+    -45deg,
+    var(--dark-blue),
+    var(--dark-purple),
+    var(--ocean-blue),
+    var(--light-turquoise)
+  );
+  background-size: 400% 400%;
+  animation: GradientAnimation 20s ease infinite;
+}
+
+@keyframes GradientAnimation {
+  0% {
+    background-position: 0% 50%;
+    opacity: 1;
+  }
+  50% {
+    background-position: 100% 50%;
+    opacity: 0.5; /* This can be adjusted for desired transparency effect */
+  }
+  100% {
+    background-position: 0% 50%;
+    opacity: 1;
+  }
 }
 
 nav {
