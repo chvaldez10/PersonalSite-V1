@@ -39,6 +39,10 @@
   cursor: pointer;
 }
 
+.mt-6 {
+  margin-top: 5rem !important;
+}
+
 /*----------------------------------------------------------*/
 /* Skills*/
 /*----------------------------------------------------------*/
@@ -83,10 +87,11 @@
 }
 
 /*----------------------------------------------------------*/
-/* header background */
+/* header */
 /*----------------------------------------------------------*/
 header {
   display: flex;
+  flex-wrap: wrap;
   height: 100vh;
   align-items: center;
   justify-content: center;
@@ -136,7 +141,7 @@ nav {
 }
 
 .nav-background-change .nav-background-change-back {
-  transition: color 1s linear, background-color 1s linear;
+  transition: color 1s ease, background-color 1s ease;
 }
 
 .nav-background-change-back {
@@ -161,13 +166,13 @@ nav {
 .button-30 {
   align-items: center;
   appearance: none;
-  background-color: #e5e1e1;
+  background-color: #fcfcfd;
   border-radius: 4px;
   border-width: 0;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   box-sizing: border-box;
-  color: #0c0c0f;
+  color: #36395a;
   cursor: pointer;
   display: inline-flex;
   font-family: "JetBrains Mono", monospace;
@@ -205,17 +210,10 @@ nav {
   box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
 }
-
 /* bouncing arrow */
 .fa-arrow-styling {
-  color: #e5e1e1;
+  color: var(--light-bg);
   cursor: pointer;
-}
-
-.arrow {
-  position: relative;
-  top: 30%;
-  text-align: center;
 }
 
 .bounce {
@@ -239,9 +237,6 @@ nav {
 }
 
 @media (min-width: 360px) and (max-width: 502px) {
-  .header-content {
-    top: 15%;
-  }
   .arrow {
     top: 25%;
   }
