@@ -7,10 +7,13 @@
  */
 $(window).scroll(function () {
   if ($(document).scrollTop() > 20) {
-    $("nav").addClass("nav-background-change");
+    $("nav")
+      .removeClass("navbar-background-change-back")
+      .addClass("nav-background-change");
   } else {
-    $("nav").removeClass("nav-background-change");
-    $("nav").addClass("nav-background-change-back");
+    $("nav")
+      .removeClass("nav-background-change")
+      .addClass("nav-background-change-back");
   }
 });
 
