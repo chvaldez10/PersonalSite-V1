@@ -397,6 +397,10 @@ input:checked + .slider:before {
   .image-hide {
     display: none;
   }
+
+  .extra-margin-top {
+    margin-top: 1rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -406,7 +410,9 @@ input:checked + .slider:before {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* Styles go here */
+  .extra-margin-top {
+    margin-top: 1rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
