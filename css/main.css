@@ -298,7 +298,7 @@ input:checked + .slider:before {
 .rotate-45 {
   transform: rotate(-45deg);
   transform-origin: top left;
-  background-color: var(--light-bg);
+  background-color: var(--light-gray);
   transition: background-color 0.5s;
 }
 
@@ -317,7 +317,7 @@ input:checked + .slider:before {
 /*----------------------------------------------------------*/
 
 .tech-card {
-  border: solid 1px #ccc;
+  border: solid 1px var(--light-gray);
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
     rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
@@ -335,7 +335,7 @@ input:checked + .slider:before {
 .dashed-line {
   height: 0%;
   transition: height 2s;
-  border-left: 4px dashed #1db954;
+  border-left: 4px dashed var(--green-green);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
