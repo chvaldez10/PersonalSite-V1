@@ -5,6 +5,7 @@
 :root {
   --pink-red: #ff407d;
   --orange-orange: #ff9800;
+  --sun-yellow: #f4d160;
   --green-green: #1db954;
   --ocean-blue: #3f72af;
   --light-turquoise: #97e7e1;
@@ -12,6 +13,7 @@
   --navy-blue: #00224d;
   --dark-text: #252a34;
   --light-blue: #dbe2ef;
+  --light-gray: #dddddd;
   --light-bg: #f9f7f7;
 }
 
@@ -253,7 +255,7 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--light-gray);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 34px;
@@ -266,18 +268,18 @@ nav {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: #eeeeee;
+  background-color: var(--light-bg);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;
 }
 
 input:checked + .slider {
-  background-color: #1db954;
+  background-color: var(--green-green);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #1db954;
+  box-shadow: 0 0 1px var(--green-green);
 }
 
 input:checked + .slider:before {
@@ -296,7 +298,7 @@ input:checked + .slider:before {
 .rotate-45 {
   transform: rotate(-45deg);
   transform-origin: top left;
-  background-color: #ccc;
+  background-color: var(--light-bg);
   transition: background-color 0.5s;
 }
 
@@ -306,7 +308,7 @@ input:checked + .slider:before {
 }
 
 .bulb.on {
-  fill: #f4d160;
+  fill: var(--sun-yellow);
   transition: fill 0.5s;
 }
 
