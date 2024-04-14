@@ -4,7 +4,7 @@
 
 :root {
   --orange-orange: #ff9800;
-  --dark-blue: #112d4e;
+  --navy-blue: #00224d;
   --ocean-blue: #3f72af;
   --light-blue: #dbe2ef;
   --light-bg: #f9f7f7;
@@ -62,17 +62,10 @@ header {
   justify-content: center;
 }
 
-.header-background {
-  background: linear-gradient(to bottom, #74ebd5, #acb6e5);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .animated-background {
   background: linear-gradient(
     -45deg,
-    var(--dark-blue),
+    var(--navy-blue),
     var(--dark-purple),
     var(--ocean-blue),
     var(--light-turquoise)
@@ -84,15 +77,12 @@ header {
 @keyframes GradientAnimation {
   0% {
     background-position: 0% 50%;
-    opacity: 1;
   }
   50% {
     background-position: 100% 50%;
-    opacity: 0.5; /* This can be adjusted for desired transparency effect */
   }
   100% {
     background-position: 0% 50%;
-    opacity: 1;
   }
 }
 
@@ -102,10 +92,6 @@ header {
 
 nav {
   cursor: pointer;
-  background-color: transparent;
-}
-
-.nav-background-change .nav-background-change-back {
   transition: color 1s ease, background-color 1s ease;
 }
 
@@ -114,7 +100,7 @@ nav {
 }
 
 .nav-background-change {
-  background-color: var(--dark-blue);
+  background-color: var(--navy-blue);
 }
 
 /*----------------------------------------------------------*/
