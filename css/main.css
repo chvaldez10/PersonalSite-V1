@@ -60,7 +60,7 @@ html {
 hr {
   border: dotted #121212 6px;
   border-bottom: none;
-  width: 10%;
+  width: 30%;
   margin: 50px auto;
 }
 
@@ -356,13 +356,6 @@ input:checked + .slider:before {
 }
 
 /*----------------------------------------------------------*/
-/* carousel controls styling*/
-/*----------------------------------------------------------*/
-.carousel-control-prev-icon-styling {
-  filter: invert(100);
-}
-
-/*----------------------------------------------------------*/
 /* Media Queries for the whole site*/
 /*----------------------------------------------------------*/
 /* Extra small devices (phones, up to 600px) */
@@ -387,6 +380,10 @@ input:checked + .slider:before {
 
   .extra-margin-top {
     margin-top: 1rem;
+  }
+
+  .small-p-text {
+    font-size: 16px;
   }
 }
 
