@@ -403,5 +403,7 @@ input:checked + .slider:before {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* Styles go here */
+  .large-p-text {
+    font-size: 1.3rem;
+  }
 }
