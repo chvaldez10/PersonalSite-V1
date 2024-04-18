@@ -84,7 +84,7 @@ header {
     var(--light-turquoise)
   );
   background-size: 400% 400%;
-  animation: GradientAnimation 20s ease infinite;
+  animation: GradientAnimation 15s ease infinite;
 }
 
 @keyframes GradientAnimation {
