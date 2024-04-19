@@ -1,0 +1,54 @@
+/*----------------------------------------------------------*/
+/* Theming */
+/*----------------------------------------------------------*/
+:root {
+  --green-green: #1db954;
+  --navy-blue: #00224d;
+  --dark-text: #252a34;
+  --light-blue: #dbe2ef;
+  --light-gray: #dddddd;
+  --light-bg: #f9f7f7;
+}
+
+/*----------------------------------------------------------*/
+/* Skills*/
+/*----------------------------------------------------------*/
+
+.tech-card {
+  border: solid 1px var(--light-gray);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  background-color: white;
+}
+
+.dashed-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.dashed-line {
+  height: 0%;
+  transition: height 2s;
+  border-left: 4px dashed var(--green-green);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
