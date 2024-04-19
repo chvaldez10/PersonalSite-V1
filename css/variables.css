@@ -3,13 +3,15 @@
 /*----------------------------------------------------------*/
 
 :root {
+  --bright-red: #e72929;
   --pink-red: #ff407d;
   --orange-orange: #ff9800;
   --sun-yellow: #f4d160;
   --green-green: #1db954;
   --ocean-blue: #3f72af;
   --light-turquoise: #97e7e1;
-  --dark-purple: #1d24ca;
+  --dark-purple: #1c1678;
+  --purple-purple: #874ccc;
   --navy-blue: #00224d;
   --dark-text: #252a34;
   --shadow-dark-color: rgba(45, 35, 66, 0.4);

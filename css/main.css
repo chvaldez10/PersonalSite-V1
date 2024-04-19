@@ -26,6 +26,10 @@ html {
   color: var(--green-green);
 }
 
+.showpass-text {
+  color: var(--bright-red);
+}
+
 .fa-styling {
   margin-right: 10px;
 }
@@ -47,6 +51,12 @@ hr {
   border-bottom: none;
   width: 30%;
   margin: 50px auto;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /*----------------------------------------------------------*/
