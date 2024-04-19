@@ -20,6 +20,6 @@
   --inset-shadow-color: #d6d6e7;
 
   /* glowing card variables */
-  --card-height: 65vh;
-  --card-width: calc(var(--card-height) / 1.5);
+  --card-width: 400px;
+  --card-height: calc(var(--card-width) / 1.5);
 }

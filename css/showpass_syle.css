@@ -7,37 +7,32 @@
 /*----------------------------------------------------------*/
 /* Glowing card*/
 /*----------------------------------------------------------*/
-.card {
+.glowing-card {
   background: white;
   width: var(--card-width);
   height: var(--card-height);
-  padding: 3px;
   position: relative;
   border-radius: 6px;
   justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
-  font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
-  cursor: pointer;
-  font-family: cursive;
 }
 
-.card:hover {
+.glowing-card:hover {
   color: rgb(88 199 250 / 100%);
   transition: color 1s;
 }
-.card:hover:before,
-.card:hover:after {
+.glowing-card:hover:before,
+.glowing-card:hover:after {
   animation: none;
   opacity: 0;
 }
 
-.card::before {
+.glowing-card::before {
   content: "";
-  width: 104%;
-  height: 102%;
+  width: 103%;
+  height: 103%;
   border-radius: 8px;
   background-image: linear-gradient(
     var(--rotate),
@@ -47,12 +42,10 @@
   );
   position: absolute;
   z-index: -1;
-  top: -1%;
-  left: -2%;
   animation: spin 2.5s linear infinite;
 }
 
-.card::after {
+.glowing-card::after {
   position: absolute;
   content: "";
   top: calc(var(--card-height) / 6);
