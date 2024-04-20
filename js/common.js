@@ -14,13 +14,26 @@ $(window).scroll(() => {
 });
 
 /**
- * When the page is refreshed, then scroll to the very top.
+ * Document ready commands.
  */
 $(document).ready(() => {
+  // Scroll to top on page load
   $(this).scrollTop(0);
 
+  // Ensure the page starts at the top even if refreshed
   $(window).on("beforeunload", () => {
     $(window).scrollTop(0);
+  });
+
+  // Collapse the navbar when a link is clicked in mobile view
+  $(".nav-link").click(function () {
+    let navbarToggle = $(".navbar-toggler");
+    if (
+      navbarToggle.is(":visible") &&
+      navbarToggle.attr("aria-expanded") === "true"
+    ) {
+      navbarToggle.trigger("click"); // Simulate click to collapse navbar
+    }
   });
 });
 
