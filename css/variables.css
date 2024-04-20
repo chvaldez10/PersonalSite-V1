@@ -9,6 +9,8 @@
   --sun-yellow: #f4d160;
   --green-green: #1db954;
   --ocean-blue: #3f72af;
+  --water-blue: #25aeb8;
+  --dark-turquoise: #0ddb9f;
   --light-turquoise: #97e7e1;
   --dark-purple: #1c1678;
   --purple-purple: #874ccc;
@@ -24,5 +26,5 @@
   /* glowing card variables */
   --card-width: 400px;
   --card-height: calc(var(--card-width) / 1.5);
-  --meng-folder-width: 800px;
+  --meng-card-width: 750px;
 }

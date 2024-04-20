@@ -1,10 +1,14 @@
 .tab-container {
-  width: var(--meng-folder-width);
+  width: var(--meng-card-width);
   max-width: 100%;
-  margin: auto;
 }
+
 .tab-list {
-  background-image: linear-gradient(to bottom right, #25aeb8, #0ddb9f);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--water-blue),
+    var(--dark-turquoise)
+  );
   padding: 0;
   margin: 50px 0 0;
   list-style: none;
@@ -16,22 +20,27 @@
   position: relative;
   z-index: 1;
 }
+
 .tab-link {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 0.8rem;
+  color: var(--light-bg);
   padding: 20px;
   width: 80px;
   text-align: center;
-  border-right: 1px solid #1d868d;
+  border-right: 1px solid var(--shadow-dark-color);
   transition: 0.5s;
   cursor: pointer;
 }
+
 .tab-link:nth-last-child(1) {
   border-right: none;
 }
+
 .tab-link.active {
   color: #555;
 }
+
 .tab-active-indicator {
   background-color: #eee;
   padding: 20px;
@@ -42,6 +51,7 @@
   z-index: -1;
   transition: 0.5s;
 }
+
 .tab-content-container {
   padding: 30px;
   background-color: #eee;
@@ -51,13 +61,16 @@
   min-height: 300px;
   text-align: justify;
 }
+
 .tab-content-container .tab-content {
   display: none;
 }
+
 .tab-content-container .tab-content.active {
   display: block;
   animation: showContent 0.5s ease-in-out 1;
 }
+
 @keyframes showContent {
   from {
     opacity: 0;
