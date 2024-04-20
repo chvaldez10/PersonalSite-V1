@@ -59,6 +59,10 @@ a {
   text-decoration: underline;
 }
 
+p {
+  margin: 0;
+}
+
 /*----------------------------------------------------------*/
 /* header */
 /*----------------------------------------------------------*/
@@ -175,7 +179,6 @@ nav {
 /*----------------------------------------------------------*/
 /* Media Queries for the whole site*/
 /*----------------------------------------------------------*/
-/* Extra small devices (phones, up to 600px) */
 @media (min-width: 360px) and (max-width: 502px) {
   .arrow {
     top: 25%;
@@ -215,6 +218,10 @@ nav {
 
   .h2-align-left {
     text-align: left;
+  }
+
+  #skills {
+    padding-top: 1rem;
   }
 }
 

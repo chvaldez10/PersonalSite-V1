@@ -23,7 +23,7 @@ $(window).scroll(function () {
 $("#Bio").click(function () {
   $("html, body").animate(
     { scrollTop: $("#about-me").offset().top - 30 },
-    100,
+    300,
     "linear"
   );
 });
@@ -31,7 +31,15 @@ $("#Bio").click(function () {
 $("#about-me-arrow").click(function () {
   $("html, body").animate(
     { scrollTop: $("#about-me").offset().top - 30 },
-    100,
+    300,
+    "linear"
+  );
+});
+
+$("#Experience").click(function () {
+  $("html, body").animate(
+    { scrollTop: $("#experience").offset().top - 30 },
+    300,
     "linear"
   );
 });
@@ -39,15 +47,7 @@ $("#about-me-arrow").click(function () {
 $("#Education").click(function () {
   $("html, body").animate(
     { scrollTop: $("#MEng").offset().top - 30 },
-    100,
-    "linear"
-  );
-});
-
-$("#Experience").click(function () {
-  $("html, body").animate(
-    { scrollTop: $("#Showpass").offset().top - 30 },
-    100,
+    300,
     "linear"
   );
 });
@@ -55,7 +55,7 @@ $("#Experience").click(function () {
 $("#Research").click(function () {
   $("html, body").animate(
     { scrollTop: $("#BT-lab").offset().top - 30 },
-    100,
+    300,
     "linear"
   );
 });
@@ -63,7 +63,7 @@ $("#Research").click(function () {
 $("#Volunteer").click(function () {
   $("html, body").animate(
     { scrollTop: $("#CFMC").offset().top - 30 },
-    100,
+    300,
     "linear"
   );
 });
@@ -71,7 +71,7 @@ $("#Volunteer").click(function () {
 $("#current-project").click(function () {
   $("html, body").animate(
     { scrollTop: $("#project-highlights").offset().top },
-    100,
+    300,
     "linear"
   );
 });
