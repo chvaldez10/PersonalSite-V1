@@ -6,7 +6,7 @@ const latchSwitch = document.getElementById("latchSwitch");
 const bulb = document.querySelector(".bulb");
 const circuitSwitch = document.querySelector(".rotate-45");
 
-latchSwitch.addEventListener("change", function () {
+latchSwitch.addEventListener("change", () => {
   if (latchSwitch.checked) {
     bulb.classList.add("on");
     circuitSwitch.classList.remove("rotate-45");

@@ -18,6 +18,10 @@ $(window).scroll(() => {
  */
 $(document).ready(() => {
   $(this).scrollTop(0);
+
+  $(window).on("beforeunload", () => {
+    $(window).scrollTop(0);
+  });
 });
 
 /**

@@ -1,7 +1,7 @@
 /**
- * jQuery selectors is to automate section scrolling. Animation might feel different on different OS.
+ * jQuery selectors are used to automate section scrolling. Animation might feel different on different OS.
  */
-$("#bio").click(function () {
+$("#bio").click(() => {
   $("html, body").animate(
     { scrollTop: $("#about-me").offset().top - 30 },
     250,
@@ -9,7 +9,7 @@ $("#bio").click(function () {
   );
 });
 
-$("#about-me-arrow").click(function () {
+$("#about-me-arrow").click(() => {
   $("html, body").animate(
     { scrollTop: $("#about-me").offset().top - 30 },
     250,
@@ -17,7 +17,7 @@ $("#about-me-arrow").click(function () {
   );
 });
 
-$("#experience").click(function () {
+$("#experience").click(() => {
   $("html, body").animate(
     { scrollTop: $("#experience-section").offset().top - 30 },
     250,
@@ -25,7 +25,7 @@ $("#experience").click(function () {
   );
 });
 
-$("#Education").click(function () {
+$("#education").click(() => {
   $("html, body").animate(
     { scrollTop: $("#MEng").offset().top - 30 },
     250,
@@ -33,7 +33,7 @@ $("#Education").click(function () {
   );
 });
 
-$("#Volunteer").click(function () {
+$("#Volunteer").click(() => {
   $("html, body").animate(
     { scrollTop: $("#CFMC").offset().top - 30 },
     250,
@@ -41,7 +41,7 @@ $("#Volunteer").click(function () {
   );
 });
 
-$("#current-project").click(function () {
+$("#current-project").click(() => {
   $("html, body").animate(
     { scrollTop: $("#project-highlights").offset().top },
     250,
