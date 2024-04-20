@@ -24,4 +24,5 @@
   /* glowing card variables */
   --card-width: 400px;
   --card-height: calc(var(--card-width) / 1.5);
+  --meng-folder-width: 800px;
 }

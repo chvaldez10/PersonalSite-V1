@@ -27,7 +27,7 @@ $("#experience").click(() => {
 
 $("#education").click(() => {
   $("html, body").animate(
-    { scrollTop: $("#MEng").offset().top - 30 },
+    { scrollTop: $("#meng").offset().top - 30 },
     250,
     "linear"
   );

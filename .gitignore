@@ -103,3 +103,6 @@ dist
 
 # FuseBox cache
 .fusebox/
+
+# temp files
+del_me*

@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="./css/skill_card_style.css" />
   <link rel="stylesheet" href="./css/button_30.css" />
   <link rel="stylesheet" href="./css/showpass_syle.css" />
+  <link rel="stylesheet" href="./css/tabs_styling.css" />
 
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -412,33 +413,41 @@
     </div>
   </section>
 
-  <section id="MEng">
-    <div class="container col-xl-10 col-xxl-8 px-4 pt-5">
-      <div class="row align-items-center g-lg-5">
-        <div class="col-lg-6 text-center text-lg-start">
-          <h2 class="fw-bold">
-            MEng - Software
-          </h2>
-          <p class="col-lg-10 fs-4 text-dark">
-            Last spring, I created a <a href="https://github.com/chvaldez10/Spotify-song-analysis" class="spotify-text"
-              target="_blank">terminal-based program</a> for analyzing data from an open-source dataset. During the
-            summer, I
-            concentrated on data structures and algorithms (DSA), leading to the development of a <a
-              href="https://github.com/chvaldez10/Java-DSA-Libraries" class="spotify-text" target="_blank">DSA
-              library</a>. My
-            team and I undertook several group projects, with our <a
-              href="https://github.com/chvaldez10/Flight-Reservation-ENSF-614-Final-Project" class="spotify-text"
-              target="_blank">Flight Reservation System</a> being the highlight.
-          </p>
-        </div>
-        <div class=" col-lg-6 col-md-10 mx-auto col-lg-5">
-          <ul class="list-group list-group-flush text-center">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
+  <section id="meng" class="pt-5">
+    <div class="px-4 text-center">
+      <h2 class="fw-bold ">Masters in Engineering (Software) </h2>
+      <div class="col-11 col-lg-6 mx-auto d-flex align-items-center">
+        <p class="lead text-dark text-start large-p-text small-p-text"> After completing my undergraduate degree, I
+          enrolled in a one-year master's program specializing in software at the
+          University of Calgary. In this program, I learned the fundamentals of software engineering and collaborated
+          with a
+          diverse group. 🎓💻</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="meng-folders">
+    <div class="tab-container px-4">
+      <div class="tab-navigation-container">
+        <ul class="tab-list">
+          <li class="tab-link active" data-target="#tab1">Tab 1</li>
+          <li class="tab-link" data-target="#tab2">Tab 2</li>
+          <li class="tab-link" data-target="#tab3">Tab 3</li>
+          <div class="tab-active-indicator"></div>
+        </ul>
+        <div class="tab-content-container">
+          <div class="tab-content active" id="tab1">
+            <h1>Content for Tab 1</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+          </div>
+          <div class="tab-content" id="tab2">
+            <h1>Content for Tab 2</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+          </div>
+          <div class="tab-content" id="tab3">
+            <h1>Content for Tab 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+          </div>
         </div>
       </div>
     </div>
@@ -570,6 +579,7 @@
   <!-- scripts -->
   <script src="./js/common.js"></script>
   <script src="./js/circuit-animations.js"></script>
+  <script src="./js/scroll-animations.js"></script>
   <script src="./js/scroll-animations.js"></script>
 </body>
 

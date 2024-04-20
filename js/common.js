@@ -17,13 +17,13 @@ $(window).scroll(() => {
  * Document ready commands.
  */
 $(document).ready(() => {
-  // Scroll to top on page load
-  $(this).scrollTop(0);
+  // // Scroll to top on page load
+  // $(this).scrollTop(0);
 
-  // Ensure the page starts at the top even if refreshed
-  $(window).on("beforeunload", () => {
-    $(window).scrollTop(0);
-  });
+  // // Ensure the page starts at the top even if refreshed
+  // $(window).on("beforeunload", () => {
+  //   $(window).scrollTop(0);
+  // });
 
   // Collapse the navbar when a link is clicked in mobile view
   $(".nav-link").click(function () {
