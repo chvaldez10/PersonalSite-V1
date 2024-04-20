@@ -26,6 +26,10 @@ html {
   color: var(--green-green);
 }
 
+.showpass-text {
+  color: var(--bright-red);
+}
+
 .fa-styling {
   margin-right: 10px;
 }
@@ -47,6 +51,16 @@ hr {
   border-bottom: none;
   width: 30%;
   margin: 50px auto;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
 }
 
 /*----------------------------------------------------------*/
@@ -165,7 +179,6 @@ nav {
 /*----------------------------------------------------------*/
 /* Media Queries for the whole site*/
 /*----------------------------------------------------------*/
-/* Extra small devices (phones, up to 600px) */
 @media (min-width: 360px) and (max-width: 502px) {
   .arrow {
     top: 25%;
@@ -191,6 +204,24 @@ nav {
 
   .small-p-text {
     font-size: 16px;
+  }
+
+  .svg-small {
+    width: 200px;
+    height: 120px;
+  }
+
+  :root {
+    --card-width: 240px;
+    --card-height: calc(var(--card-width) / 2);
+  }
+
+  .h2-align-left {
+    text-align: left;
+  }
+
+  #skills {
+    padding-top: 1rem;
   }
 }
 

@@ -15,7 +15,7 @@
 
   <!-- css -->
   <link rel="stylesheet" href="./css/variables.css" />
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/globals.css" />
   <link rel="stylesheet" href="./css/circuit_style.css" />
   <link rel="stylesheet" href="./css/skill_card_style.css" />
   <link rel="stylesheet" href="./css/button_30.css" />
@@ -48,9 +48,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link hover-underline-animation" id="Education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover-underline-animation" id="Research">Research</a>
           </li>
           <li class="nav-item">
             <a class="nav-link hover-underline-animation" id="Volunteer">Volunteer</a>
@@ -94,8 +91,8 @@
   <section id="about-me" class="pt-5">
     <div class="px-4 text-center">
       <h2 class="fw-bold">About Me</h2>
-      <div class="col-11 col-lg-6 mx-auto">
-        <p class="lead mb-4 text-dark text-start large-p-text small-p-text">
+      <div class="col-11 col-lg-6 mx-auto d-flex align-items-center justify-content-center" style="min-height: 100%;">
+        <p class="lead text-dark text-start large-p-text small-p-text">
           Hi there 👋,
           <br>
           🎓 I graduated with dual degrees from the University of Calgary's Schulich School of Engineering, earning a
@@ -104,7 +101,8 @@
           Quality
           Assurance (QA) Analyst at Showpass 🎟️. 💡 Passionate about creativity and product development, I excel in
           collaborative
-          environments where I can learn from others. In my projects, I emphasize a test-driven 🔄 approach and focus on
+          environments where I can learn from others. In my projects, I emphasize a test-driven 🔄 approach and focus
+          on
           crafting
           user-centered products. 🎨
         </p>
@@ -144,10 +142,10 @@
   </section>
 
   <section id="skills">
-    <div class="px-4 text-center py-3">
+    <div class="px-4 text-center">
       <h2 class="fw-bold ">Technologies</h2>
-      <div class="col-11 col-lg-6 mx-auto">
-        <p class="lead mb-4 text-dark text-start large-p-text small-p-text">🚀 I'm always on the hunt for new tech
+      <div class="col-11 col-lg-6 mx-auto d-flex align-items-center">
+        <p class="lead text-dark text-start large-p-text small-p-text">🚀 I'm always on the hunt for new tech
           adventures! Check
           out my list
           of programming languages and cool tech tools I've
@@ -319,49 +317,96 @@
     </div>
   </section>
 
-  <hr />
+  <section id="experience" class="py-5">
+    <div class="px-4 text-center">
+      <h2 class="fw-bold ">Experience</h2>
+      <div class="col-11 col-lg-6 mx-auto d-flex align-items-center">
+        <p class="lead text-dark text-start large-p-text small-p-text"> So far, I've been fortunate to be part of
+          several teams. I've mostly worked in the QA role 🛠️, with a dash of experience
+          in deep learning. 🧠 </p>
+      </div>
+    </div>
+  </section>
 
-  <section id="Showpass">
-    <div class="container col-xxl-6 col-lg-11 px-4">
+  <section id="showpass">
+    <div class="container col-xxl-6 col-lg-11">
       <div class="row align-items-center g-lg-5 text-center justify-content-center">
-        <div class="col-lg-6 text-center text-lg-start">
-          <h2 class="fw-bold">
+        <div class="col-lg-6 text-lg-start mx-2">
+          <h2 class="fw-bold h2-align-left">
             Software QA Analyst
           </h2>
           <p class="lead mb-4 text-dark text-start large-p-text small-p-text">
-            Showpass is a ticketing and event management software company. I work closely with the Product and
-            Development teams to
-            identify and test key new and existing features. My favorite part about working at Showpass is building a
-            product I can
-            easily hand off to people and share stories about it.
+            Showpass is more than just a ticketing company—it's a discovery and purchasing platform for city events 🌆.
+            I collaborate with the
+            Product and
+            Development teams to identify and test essential features, both new and existing. My favorite part? Building
+            a product
+            that I can proudly share with others, along with the stories behind it! 🎟️✨
           </p>
         </div>
-        <div class="col-lg-6 col-md-10 mx-auto col-lg-5">
-          <img src="./pictures/svg/showpass_logo_red.svg" alt="UofC Logo"
-            class="rounded d-block mx-auto portfolio-img" />
+        <div class="col-lg-6 glowing-card mx-2">
+          <a href="https://www.showpass.com/" target="_blank">
+            <img src="./pictures/svg/showpass_logo_red.svg" alt="Showpass Logo"
+              class="rounded d-block mx-auto portfolio-img svg-small" />
+          </a>
         </div>
       </div>
     </div>
   </section>
 
   <section id="CMG">
-    <div class="container col-xl-10 col-xxl-8 px-4 pt-5">
-      <div class="row align-items-center g-lg-5">
-        <div class="col-lg-6 text-center text-lg-start">
-          <h2 class="fw-bold">
+    <div class="container col-xxl-6 col-lg-11 pt-5">
+      <div class="row align-items-center g-lg-5 text-center justify-content-center">
+        <div class="col-lg-6 text-lg-start mx-2">
+          <h2 class="fw-bold h2-align-left">
             QA Intern
           </h2>
-          <p class="col-lg-10 fs-4 text-dark">
-            During my internship at CMG, I worked as a software QA, where I developed and managed
-            various test suites. A
-            highlight
-            was my participation in a <a
+          <p class="lead mb-4 text-dark text-start large-p-text small-p-text">
+            CMG is an energy consulting and software company specializing in optimizing oil extraction from underground
+            reservoirs
+            and facilitating carbon dioxide sequestration. Think of reservoir simulation like water moving through a
+            sponge—using
+            computer models to mimic fluid behavior under various conditions. 🌍💧 A highlight of my experience was
+            participating
+            in a <a
               href="https://www.itworldcanada.com/article/aws-deepracer-when-fun-meets-ml-autonomous-cars-and-upskilling/537953"
-              class="spotify-text">DeepRacer event</a>, scripting a reward function to train RC cars.
+              target="_blank" class="spotify-text">DeepRacer event</a>, where I developed a reward function to train RC
+            cars. 🚗💻
           </p>
         </div>
-        <div class="col-lg-6 col-md-10 mx-auto col-lg-5">
-          <img src="./pictures/svg/CMG-Logo-Colour.svg" alt="UofC Logo" class="rounded d-block mx-auto portfolio-img" />
+        <div class="col-lg-6 mx-2" style="width:var(--card-width)">
+          <a href="https://www.cmgl.ca/" target="_blank">
+            <img src="./pictures/svg/CMG-Logo-Colour.svg" alt="CMG Logo"
+              class="rounded d-block mx-auto portfolio-img svg-small" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="BT-lab">
+    <div class="container col-xxl-6 col-lg-11 pt-5">
+      <div class="row align-items-center g-lg-5 text-center justify-content-center">
+        <div class="col-lg-6 text-lg-start mx-2">
+          <h2 class="fw-bold h2-align-left">
+            Graduate Research Assistant
+          </h2>
+          <p class="lead mb-4 text-dark text-start large-p-text small-p-text">
+            As a Graduate Research Assistant at the Biometric Technology Lab, I worked with a team on a study to develop
+            a model
+            for detecting abnormal breathing patterns in sleeping patients 🌙. However, we did not find a model
+            compatible with
+            our dataset. Future improvements could involve enhanced data collection, pre-processing, and exploration of
+            various
+            deep-learning architectures 🔍📊. <a href="https://github.com/chvaldez10/Team-Design-Project"
+              target="_blank" class="spotify-text">(GitHub repo)</a>.
+
+        </div>
+        <div class="col-lg-6 mx-2" style="width:var(--card-width)">
+          <a href="https://ucalgary.ca/labs/biometric-technologies/home" target="_blank">
+            <img src="./pictures/png/bt-lab_logo.png" alt="BT Lab Logo"
+              class="rounded d-block mx-auto portfolio-img svg-small" />
+          </a>
         </div>
       </div>
     </div>
@@ -387,33 +432,18 @@
           </p>
         </div>
         <div class=" col-lg-6 col-md-10 mx-auto col-lg-5">
-          <img src="./pictures/png/bst.png" alt="summer project home page" class="rounded d-block mx-auto img-fluid" />
+          <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="BT-lab">
-    <div class="container col-xl-10 col-xxl-8 px-4 pt-5">
-      <div class="row align-items-center g-lg-5">
-        <div class="col-lg-6 text-center text-lg-start">
-          <h2 class="fw-bold">
-            Graduate Research Assistant
-          </h2>
-          <p class="col-lg-10 fs-4 text-dark">
-            As a Graduate Research Assistant at the Biometric Technology Lab, I honed my skills in neural network
-            development and
-            data processing. I developed adaptive neural network architectures for detecting abnormal respiration
-            patterns,
-            leveraging advanced algorithms for person detection to improve spatial feature extraction.
-          </p>
-        </div>
-        <div class="col-lg-6 col-md-10 mx-auto col-lg-5">
-          <img src="./pictures/png/bt-lab_logo.png" alt="UofC Logo" class="rounded d-block mx-auto img-fluid" />
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section id="BSC">
     <div class="container col-xl-10 col-xxl-8 px-4 pt-5">
