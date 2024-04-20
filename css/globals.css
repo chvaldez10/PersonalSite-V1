@@ -212,6 +212,10 @@ nav {
     --card-width: 240px;
     --card-height: calc(var(--card-width) / 2);
   }
+
+  .h2-align-left {
+    text-align: left;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
