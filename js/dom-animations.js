@@ -52,14 +52,6 @@ $("#Education").click(function () {
   );
 });
 
-$("#Research").click(function () {
-  $("html, body").animate(
-    { scrollTop: $("#BT-lab").offset().top - 30 },
-    300,
-    "linear"
-  );
-});
-
 $("#Volunteer").click(function () {
   $("html, body").animate(
     { scrollTop: $("#CFMC").offset().top - 30 },
