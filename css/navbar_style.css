@@ -1,0 +1,45 @@
+/*----------------------------------------------------------*/
+/* navbar */
+/*----------------------------------------------------------*/
+
+nav {
+  cursor: pointer;
+  transition: color 1s ease, background-color 1s ease;
+}
+
+.nav-background-change-back {
+  background-color: transparent;
+}
+
+.nav-background-change {
+  background-color: var(--navy-blue);
+}
+
+/* Anchor underline */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #e5e1e1;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e5e1e1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+  cursor: pointer;
+}

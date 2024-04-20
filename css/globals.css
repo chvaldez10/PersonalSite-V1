@@ -16,36 +16,8 @@ html {
 }
 
 /*----------------------------------------------------------*/
-/* Re usable*/
+/* Tags */
 /*----------------------------------------------------------*/
-.white-text {
-  color: var(--light-bg);
-}
-
-.spotify-text {
-  color: var(--green-green);
-}
-
-.showpass-text {
-  color: var(--bright-red);
-}
-
-.fa-styling {
-  margin-right: 10px;
-}
-
-.max-width {
-  max-width: 90%;
-}
-
-.navbar-collapse .navbar-nav .nav-link {
-  cursor: pointer;
-}
-
-.mt-6 {
-  margin-top: 5rem !important;
-}
-
 hr {
   border: dotted #121212 6px;
   border-bottom: none;
@@ -64,85 +36,24 @@ p {
 }
 
 /*----------------------------------------------------------*/
-/* header */
-/*----------------------------------------------------------*/
-header {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.animated-background {
-  background: linear-gradient(
-    -45deg,
-    var(--navy-blue),
-    var(--dark-purple),
-    var(--ocean-blue),
-    var(--light-turquoise)
-  );
-  background-size: 400% 400%;
-  animation: GradientAnimation 15s ease infinite;
-}
-
-@keyframes GradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-/*----------------------------------------------------------*/
-/* navbar */
+/* Text */
 /*----------------------------------------------------------*/
 
-nav {
-  cursor: pointer;
-  transition: color 1s ease, background-color 1s ease;
+.white-text {
+  color: var(--light-bg);
 }
 
-.nav-background-change-back {
-  background-color: transparent;
+.spotify-text {
+  color: var(--green-green);
 }
 
-.nav-background-change {
-  background-color: var(--navy-blue);
+.showpass-text {
+  color: var(--bright-red);
 }
 
-/* Anchor underline */
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-  color: #e5e1e1;
+.max-width {
+  max-width: 90%;
 }
-
-.hover-underline-animation::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #e5e1e1;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/*----------------------------------------------------------*/
-/* header content */
-/*----------------------------------------------------------*/
 
 .hand-written-font {
   font-family: "Satisfy", cursive;
@@ -150,7 +61,18 @@ nav {
   font-weight: lighter;
 }
 
-/* bouncing arrow */
+/*----------------------------------------------------------*/
+/* Spacing */
+/*----------------------------------------------------------*/
+
+.mt-6 {
+  margin-top: 5rem !important;
+}
+
+/*----------------------------------------------------------*/
+/* Content */
+/*----------------------------------------------------------*/
+
 .fa-arrow-styling {
   color: var(--light-bg);
   cursor: pointer;

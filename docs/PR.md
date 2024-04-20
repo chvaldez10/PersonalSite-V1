@@ -16,12 +16,12 @@
 
 ## How Has This Been Tested?
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. If applicable, use the format `Given`, `Whe`n, `Then` structure.
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. If applicable, use the format `Given`, `When`, `Then` structure.
 
 - [ ] Test A
-      GIVEN: <state>
-      WHEN: <action>
-      THEN: <result>
+      GIVEN <state>
+      WHEN <action>
+      THEN <result>
 
 ## Screenshots (if appropriate)
 
