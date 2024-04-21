@@ -134,7 +134,7 @@ p {
   }
 
   :root {
-    --card-width: 240px;
+    --card-width: 320px;
     --card-height: calc(var(--card-width) / 2);
     --meng-card-width: 400px;
     /* --meng-card-height: calc(var(--meng-card-width) / 1.5); */
