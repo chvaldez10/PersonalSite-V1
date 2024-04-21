@@ -134,8 +134,9 @@ p {
   }
 
   :root {
-    --card-width: 240px;
+    --card-width: 320px;
     --card-height: calc(var(--card-width) / 2);
+    --meng-card-width: 90vw;
   }
 
   .h2-align-left {
