@@ -1,5 +1,6 @@
 .tab-container {
   width: var(--meng-card-width);
+  /* height: var(--meng-card-height); */
   max-width: 100%;
 }
 
