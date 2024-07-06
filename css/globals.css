@@ -61,16 +61,6 @@ p {
   font-weight: lighter;
 }
 
-.btn-hover:hover {
-  background-color: #a855f7;
-  color: white;
-  border-color: #a855f7;
-}
-
-.btn-hover:hover a {
-  color: white;
-}
-
 /*----------------------------------------------------------*/
 /* Spacing */
 /*----------------------------------------------------------*/
