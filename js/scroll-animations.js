@@ -33,14 +33,6 @@ $("#education").click(() => {
   );
 });
 
-$("#volunteer").click(() => {
-  $("html, body").animate(
-    { scrollTop: $("#CFMC").offset().top - 30 },
-    250,
-    "linear"
-  );
-});
-
 $("#current-project").click(() => {
   $("html, body").animate(
     { scrollTop: $("#project-highlights").offset().top },
