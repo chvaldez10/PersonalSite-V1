@@ -40,3 +40,11 @@ $("#current-project").click(() => {
     "linear"
   );
 });
+
+$("#contact").click(() => {
+  $("html, body").animate(
+    { scrollTop: $("#get-in-touch").offset().top },
+    250,
+    "linear"
+  );
+});
