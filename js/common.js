@@ -47,12 +47,12 @@ $("#github-button").click(() => {
 /**
  * Open resume from GitHub page.
  */
-$("#resume-button").click(() => {
-  window.open(
-    "https://github.com/chvaldez10/chvaldez10.github.io/blob/main/pdfs/Christian-Valdez_Resume.pdf",
-    "_blank"
-  );
-});
+// $("#resume-button").click(() => {
+//   window.open(
+//     "https://github.com/chvaldez10/chvaldez10.github.io/blob/main/pdfs/Christian-Valdez_Resume.pdf",
+//     "_blank"
+//   );
+// });
 
 /**
  * Dashed line animation.
@@ -71,4 +71,11 @@ $(window).on("scroll", () => {
   } else {
     $dashedLine.css("height", "0%");
   }
+});
+
+/**
+ * Modal focus
+ */
+$("#resumeModal").on("shown.bs.modal", function () {
+  $("#resumeModal iframe").focus();
 });
