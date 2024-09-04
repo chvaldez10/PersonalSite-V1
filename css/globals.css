@@ -153,6 +153,14 @@ p {
   /* Styles go here */
 }
 
+.modal-lg {
+  max-width: 800px;
+}
+
+.ratio-1x1 {
+  --bs-aspect-ratio: 100%;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 }
